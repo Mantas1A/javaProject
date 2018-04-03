@@ -14,18 +14,20 @@ import java.util.Date;
  */
 public class Time {
       
-        public int addDay(){
-            
+    Gui day = new Gui();
+    
+        public void addDay(){
+        
               try {
-                  
-        String strDate = "2018/03/12";
         SimpleDateFormat sdfdate = new SimpleDateFormat("yyyy/MM/dd");
-        Date thisdate = sdfdate.parse(strDate);
+        Date thisdate = sdfdate.parse(day.date());
         SimpleDateFormat sdfdate1 = new SimpleDateFormat("yyyy/MM/dd");
         System.out.println(sdfdate1.format(thisdate));
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
+              
+    
         
         }
 }

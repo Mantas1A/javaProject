@@ -18,5 +18,7 @@ public class Main {
         
         Gui gui = new Gui();
         gui.age();
+        Time time = new Time();
+        time.addDay();
 	}
 }
