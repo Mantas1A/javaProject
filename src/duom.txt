@@ -1,0 +1,46 @@
+[
+  {
+  "Age":0,
+  "Tipe":"Sport",
+  "Event":"miami-spurs",
+  "Date":"2018.05.03",
+  "Place": 0,
+  "Price": 0,
+  "Registered": 150,
+  "Howmanyalowd": 9999,
+  "Rating": 4
+  },
+{
+  "Age":18,
+  "Tipe":"Sport",
+  "Event":"Raw",
+  "Date":"2018.08.03",
+  "Place": 1,
+  "Price": 20,
+  "Registered": 150,
+  "Howmanyalowd": 200,
+  "Rating": 4
+  },
+{
+  "Age":0,
+  "Tipe":"Libary",
+  "Event":"new book HarisPoteris",
+  "Date":"2018.05.03",
+  "Place": 1,
+  "Price": 10,
+  "Registered": 20,
+  "Howmanyalowd": 30,
+  "Rating": 5
+  },
+{
+  "Age":0,
+  "Tipe":"Concert",
+  "Event":"BTH",
+  "Date":"2018.020.03",
+  "Place": 0,
+  "Price": 20,
+  "Registered": 500,
+  "Howmanyalowd": 9999,
+  "Rating": 3
+  }
+]
