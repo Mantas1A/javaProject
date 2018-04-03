@@ -1,46 +1,42 @@
 [
   {
-  "Age":0,
-  "Tipe":"Sport",
-  "Event":"miami-spurs",
-  "Date":"2018.05.03",
-  "Place": 0,
-  "Price": 0,
-  "Registered": 150,
-  "Howmanyalowd": 9999,
-  "Rating": 4
+  "age":0,
+  "tipe":"Sport",
+  "event":"miami-spurs",
+  "date":"2018.05.03",
+  "place": 0,
+  "price": 0,
+  "registered": 150,
+  "howmanyalowd": 9999
   },
 {
-  "Age":18,
-  "Tipe":"Sport",
-  "Event":"Raw",
-  "Date":"2018.08.03",
-  "Place": 1,
-  "Price": 20,
-  "Registered": 150,
-  "Howmanyalowd": 200,
-  "Rating": 4
+  "age":18,
+  "tipe":"Sport",
+  "event":"Raw",
+  "date":"2018.08.03",
+  "place": 1,
+  "price": 20,
+  "registered": 150,
+  "howmanyalowd": 200
   },
 {
-  "Age":0,
-  "Tipe":"Libary",
-  "Event":"new book HarisPoteris",
-  "Date":"2018.05.03",
-  "Place": 1,
-  "Price": 10,
-  "Registered": 20,
-  "Howmanyalowd": 30,
-  "Rating": 5
+  "age":0,
+  "tipe":"Libary",
+  "event":"new book HarisPoteris",
+  "date":"2018.05.03",
+  "place": 1,
+  "price": 10,
+  "registered": 20,
+  "howmanyalowd": 30
   },
 {
-  "Age":0,
-  "Tipe":"Concert",
-  "Event":"BTH",
-  "Date":"2018.020.03",
-  "Place": 0,
-  "Price": 20,
-  "Registered": 500,
-  "Howmanyalowd": 9999,
-  "Rating": 3
+  "age":0,
+  "tipe":"Concert",
+  "event":"BTH",
+  "date":"2018.020.03",
+  "place": 0,
+  "price": 20,
+  "registered": 500,
+  "howmanyalowd": 9999
   }
 ]

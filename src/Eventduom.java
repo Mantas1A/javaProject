@@ -1,108 +1,99 @@
 
 public class Eventduom {
 
-	private int Age;
-	private String Tipe;
-	private String Event;
-	private String Date;
-	private int Place;
-	private int Price;
-	private int Registered;
-	private int Howmanyalowd;
-	private double Rating;
+	private int age;
+	private String tipe;
+	private String event;
+	private String date;
+	private int place;
+	private int price;
+	private int registered;
+	private int howmanyalowd;
 
 	public Eventduom(){
 	
 	}
-	public Eventduom(int age, String tipe, String event, String date, int place, int price, int registered,
-			int howmanyalowd, double rating) {
+	public Eventduom (int age, String tipe, String event, String date, int place, int price, int registered, int howmanyalowd) {
 		super();
-		Age = age;
-		Tipe = tipe;
-		Event = event;
-		Date = date;
-		Place = place;
-		Price = price;
-		Registered = registered;
-		Howmanyalowd = howmanyalowd;
-		Rating = rating;
+		this.age = age;
+		this.tipe = tipe;
+		this.event = event;
+		this.date = date;
+		this.place = place;
+		this.price = price;
+		this.registered = registered;
+		this.howmanyalowd = howmanyalowd;
+                
+		
 	}
 	public int getAge() {
-		return Age;
+		return age;
 	}
 
 	public void setAge(int age) {
-		Age = age;
+		this.age = age;
 	}
 
 	public String getTipe() {
-		return Tipe;
+		return tipe;
 	}
 
 	public void setTipe(String tipe) {
-		Tipe = tipe;
+		this.tipe = tipe;
 	}
 
 	public String getEvent() {
-		return Event;
+		return event;
 	}
 
 	public void setEvent(String event) {
-		Event = event;
+		this.event = event;
 	}
 
 	public String getDate() {
-		return Date;
+		return date;
 	}
 
 	public void setDate(String date) {
-		Date = date;
+		this.date = date;
 	}
 
 	public int getPlace() {
-		return Place;
+		return place;
 	}
 
 	public void setPlace(int place) {
-		Place = place;
+		this.place = place;
 	}
 
 	public int getPrice() {
-		return Price;
+		return price;
 	}
 
 	public void setPrice(int price) {
-		Price = price;
+		this.price = price;
 	}
 
 	public int getRegistered() {
-		return Registered;
+		return registered;
 	}
 
 	public void setRegistered(int registered) {
-		Registered = registered;
+		this.registered = registered;
 	}
 
 	public int getHowmanyalowd() {
-		return Howmanyalowd;
+		return howmanyalowd;
 	}
 
 	public void setHowmanyalowd(int howmanyalowd) {
-		Howmanyalowd = howmanyalowd;
+		this.howmanyalowd = howmanyalowd;
 	}
 
-	public double getRating() {
-		return Rating;
-	}
 
-	public void setRating(double rating) {
-		Rating = rating;
-	}
+        @Override
 	public String toString() {
-		String rez = "Age " + Age + " Tipe" + Tipe +  " Event " + Event + " Date " + Date + "Place " + Place + " Price "+ Price + "Registered" +Registered+ "howmanyalowd" + Howmanyalowd +" rating" + Rating;
+		String rez = "Age " + age + " Tipe" + tipe +  " Event " + event + " Date " + date + "Place " + place + " Price "+ price + " Registered" + registered + " howmanyalowd" + howmanyalowd ;
 		return rez;
 	}
-	
-	
-	
 }
