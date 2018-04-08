@@ -19,7 +19,7 @@ public class Comparator {
     String error=("There is no this tipe events");
     
     public String [] tipes( ArrayList <Eventduom> sarasas, int age){
-        
+        ArrayList <Eventduom> neededEvents=new ArrayList();
         //neededEvents[0] = error;
         Eventduom enduo = new Eventduom();
         int index = gui.Eventstipes();
@@ -46,9 +46,35 @@ public class Comparator {
              System.out.println(neededEvents);
           for(int i = 0; i < neededEvents.size(); i++){
               names[i] = neededEvents.get(i).getEvent();
+              
+              
              // System.out.println(names[i]);
           }
+          int name_index=gui.Eventnamesprint(names);
+          int regist_index =  gui.Eventinfo(neededEvents.get(name_index));  // isprintina visa info apie rengini
           
+          if (regist_index==0)                                        //  tikrinam vita ir ar galima uzsiregistruoti
+          {
+              int place = neededEvents.get(name_index).getPlace();
+              if (place==0)
+              {
+                  place++;
+                  gui.Entername();
+                  
+              }
+              else {
+                 int howmanyregistered = neededEvents.get(name_index).getHowmanyalowd();
+                 int registered = neededEvents.get(name_index).getRegistered();
+                    if (registered<howmanyregistered){
+                        gui.Entername();
+                    }
+                    else gui.Eventnamesprint(names);
+              }
+          }
+          else { 
+              tipes(sarasas,age);
+          }
+         
           return names;
     }
     

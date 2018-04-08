@@ -43,4 +43,18 @@ public class Gui {
             int name_index = JOptionPane.showOptionDialog(null,"In what event you would like to go?", "Events Names", 0, JOptionPane.QUESTION_MESSAGE,null,names,0 );
          return name_index;
       }
+      
+      public int Eventinfo( Eventduom sarasas ){
+          String [] info = new String [] {"Regist", "Back to Events"}; 
+          int info_index = JOptionPane.showOptionDialog(null,sarasas, "Event", 0, JOptionPane.QUESTION_MESSAGE,null,info,0 );
+         return info_index;
+      }
+      public void Entername()
+      {
+          String name = JOptionPane.showInputDialog("Enter your name ");
+          String surname = JOptionPane.showInputDialog("Enter your surname");
+          JOptionPane.showMessageDialog(null, "You have been registed "+name+ " "+surname, "The title", JOptionPane.PLAIN_MESSAGE);
+        
+          
+      }
     }

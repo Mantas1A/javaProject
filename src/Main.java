@@ -25,8 +25,8 @@ public class Main {
        // System.out.println(thedate); // 
         dcon.converter1();
         Comparator comp = new Comparator();
-        String [] names = comp.tipes(EventJson, theage);
-        int name_index=gui.Eventnamesprint(names);
+        comp.tipes(EventJson, theage);
+        
         
         
         
