@@ -1,0 +1,13 @@
+Programos tikslas:
+
+• Leisti vartotojui perþiûrëti, kokie renginiai vyks ateityje iðrûðiuojant pagal vartotojo amþiø ir norimà datà, 
+bei uþsiregistruoti á iðsirinktà renginá
+
+Programos veikimo eiga:
+
+• Paleidus programà, atsiranda grafinis vartotojo sàsajos langas, kuriame ávedamas vartotojo amþius ir data
+• Pagal ávestà amþiø ir datà, iðfiltruojamas renginiø sàraðas ir pateikiamas ekrane
+• Vartotojas ið duoto renginiø tipo sàraðo gali pasirinkti já labiausiai dominantá tipà
+• Iðsirinkus tipà, sàraðas vël iðfiltruojamas ir pateikiamas ekrane
+• Vartotojas gali pasirinkti já dominantá renginá ir uþsiregistruoti ávesdamas vardà ir pavardæ
+• Ávykus renginiui, vartotojas turi galimybæ já ávertinti
