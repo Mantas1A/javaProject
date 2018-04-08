@@ -1,9 +1,9 @@
 [
   {
   "age":0,
-  "tipe":"Sport",
+  "tipe":1,
   "event":"miami-spurs",
-  "date":"2018.05.03",
+  "date":"2018/05/03",
   "place": 0,
   "price": 0,
   "registered": 150,
@@ -11,9 +11,9 @@
   },
 {
   "age":18,
-  "tipe":"Sport",
+  "tipe":2,
   "event":"Raw",
-  "date":"2018.08.03",
+  "date":"2018/08/03",
   "place": 1,
   "price": 20,
   "registered": 150,
@@ -21,9 +21,9 @@
   },
 {
   "age":0,
-  "tipe":"Libary",
+  "tipe":1,
   "event":"new book HarisPoteris",
-  "date":"2018.05.03",
+  "date":"2018/05/03",
   "place": 1,
   "price": 10,
   "registered": 20,
@@ -31,9 +31,9 @@
   },
 {
   "age":0,
-  "tipe":"Concert",
+  "tipe":1,
   "event":"BTH",
-  "date":"2018.020.03",
+  "date":"2018/05/03",
   "place": 0,
   "price": 20,
   "registered": 500,

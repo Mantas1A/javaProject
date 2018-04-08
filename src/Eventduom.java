@@ -2,7 +2,7 @@
 public class Eventduom {
 
 	private int age;
-	private String tipe;
+	private int tipe;
 	private String event;
 	private String date;
 	private int place;
@@ -13,7 +13,7 @@ public class Eventduom {
 	public Eventduom(){
 	
 	}
-	public Eventduom (int age, String tipe, String event, String date, int place, int price, int registered, int howmanyalowd) {
+	public Eventduom (int age, int tipe, String event, String date, int place, int price, int registered, int howmanyalowd) {
 		super();
 		this.age = age;
 		this.tipe = tipe;
@@ -34,11 +34,11 @@ public class Eventduom {
 		this.age = age;
 	}
 
-	public String getTipe() {
+	public int getTipe() {
 		return tipe;
 	}
 
-	public void setTipe(String tipe) {
+	public void setTipe(int tipe) {
 		this.tipe = tipe;
 	}
 
