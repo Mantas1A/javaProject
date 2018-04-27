@@ -33,7 +33,7 @@
   "age":0,
   "tipe":1,
   "event":"BTH",
-  "date":"2018/05/03",
+  "date":"2018/07/03",
   "place": 0,
   "price": 20,
   "registered": 500,

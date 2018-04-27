@@ -18,6 +18,7 @@ public class Time {
     public int date_index;
     Gui day = new Gui();
     
+    
     public int dates(){
         
         String[] date = {"Today", "Some other day"};
@@ -28,31 +29,39 @@ public class Time {
        return date_index;
     }
     
-        public Date addDay(){   
-            if (date_index==0){ 
-                
-                Date currentDate = new Date();
+        public Date addDay(int index){   
+             Date currentDate = new Date();
+           // System.out.println("date_index");
+             // System.out.println(date_index);
+             int dateindex=index;
+            if (dateindex==0){ 
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
                 System.out.println(sdf.format(currentDate));
                String thedate0 = sdf.format(currentDate);
-               
+              // System.out.println("esama diena pasirinko\n");
+              // System.out.println(currentDate);
                
                 return currentDate;
             }
-            else {
+            else  if (dateindex == 1){
               try {
         SimpleDateFormat sdfdate = new SimpleDateFormat("yyyy/MM/dd");
         Date thisdate = sdfdate.parse(day.date());  // priskiriam kas pareitu is gui date
         SimpleDateFormat sdfdate1 = new SimpleDateFormat("yyyy/MM/dd"); // nustatom formata
         System.out.println(sdfdate1.format(thisdate));
-        
+                //System.out.println("pasirinko kita diena\n");
+              //System.out.println(thisdate);
         String thedate1 = sdfdate1.format(thisdate);
         return thisdate;
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
+              
             }
-             return new Date("1998/10/14");
+        return null;
+ 
+   
+             
         }
       
 }

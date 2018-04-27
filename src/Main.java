@@ -13,27 +13,21 @@ public class Main {
         Dateconverter dcon = new Dateconverter();
         Gui gui = new Gui();   
         Time time = new Time(); 
+         Comparator comp = new Comparator();
         //=====================================
 	
 	 ArrayList<Eventduom> EventJson = eventread.readallevents("src/duom.txt");
-	prinduom.printduom(EventJson); 
+	//prinduom.printduom(EventJson); 
         
    
        int theage=gui.age(); 
         //time.dates(); // 
        // String thedate = time.addDay(); //iskvieciam 
        // System.out.println(thedate); // 
-        dcon.converter1();
-        Comparator comp = new Comparator();
-        comp.tipes(EventJson, theage);
-        
-        
-        
-        
-        
-     
-        
-        
+        int index=time.dates();
+        Date theday=time.addDay(index);
+        //dcon.converter1();
+        comp.tipes(EventJson, theage , theday);
         
 	}
 }

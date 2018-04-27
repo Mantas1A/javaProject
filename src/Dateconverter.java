@@ -24,8 +24,9 @@ public class Dateconverter {
     private int months2;
     private int days2;
     
-    public void converter1(){    // reikiamos dienos;
+   /*public void converter1(){    // reikiamos dienos;
        try {
+           System.out.println("Erroras cia");
            day.dates();
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
     Date dayys =  sdf.parse(day.addDay().toString()); 
@@ -52,7 +53,7 @@ public class Dateconverter {
     {
         return days1;
     }
-    
+    */
     public Date converter2(String data){   // is duomenu failu nuskaitytos dienos
           
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
@@ -63,6 +64,7 @@ public class Dateconverter {
         
     }
     SimpleDateFormat sdfdate1 = new SimpleDateFormat("yyyy/MM/dd"); 
+    //System.out.println("renginio diena");
     System.out.println(sdfdate1.format(days));
     
     return days;
