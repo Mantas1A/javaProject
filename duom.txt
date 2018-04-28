@@ -1,0 +1,112 @@
+[
+  {
+  "age":3,
+  "tipe":0,
+  "event":"Zalgiris - Nevezis",
+  "date":"2018/06/03",
+  "place": 1,
+  "price": 15,
+  "registered": 3206,
+  "howmanyalowd": 10000
+  },
+{
+  "age":3,
+  "tipe":0,
+  "event":"Zalgiris - Fenerbahce",
+  "date":"2018/05/18",
+  "place": 1,
+  "price": 40,
+  "registered": 16750,
+  "howmanyalowd": 20000
+  },
+{
+  "age":16,
+  "tipe":0,
+  "event":"Volleyball Tournament",
+  "date":"2018/06/22",
+  "place": 0,
+  "price": 5,
+  "registered": 16,
+  "howmanyalowd": 20
+  },
+{
+  "age":12,
+  "tipe":1,
+  "event":"Vibelift",
+  "date":"2018/05/06",
+  "place": 1,
+  "price": 10,
+  "registered": 7632,
+  "howmanyalowd": 10000
+  },
+{
+  "age":3,
+  "tipe":2,
+  "event":"James Blunt Tour",
+  "date":"2018/05/18",
+  "place": 1,
+  "price": 40,
+  "registered": 7460,
+  "howmanyalowd": 15000
+  },
+{
+  "age":3,
+  "tipe":2,
+  "event":"Linas Adomaitis",
+  "date":"2018/12/21",
+  "place": 1,
+  "price": 25,
+  "registered": 246,
+  "howmanyalowd": 15000
+  },
+{
+  "age":16,
+  "tipe":1,
+  "event":"Book presentation",
+  "date":"2018/07/15",
+  "place": 1,
+  "price": 0,
+  "registered": 120,
+  "howmanyalowd": 200
+  },
+{
+  "age":3,
+  "tipe":3,
+  "event":"Healthy eating",
+  "date":"2018/10/13",
+  "place": 1,
+  "price": 3,
+  "registered": 16,
+  "howmanyalowd": 50
+  },
+{
+  "age":12,
+  "tipe":3,
+  "event":"Improving learning efficiency",
+  "date":"2018/10/13",
+  "place": 1,
+  "price": 3,
+  "registered": 16,
+  "howmanyalowd": 50
+  },
+{
+  "age":14,
+  "tipe":4,
+  "event":"Programming lessons",
+  "date":"2018/9/06",
+  "place": 1,
+  "price": 0,
+  "registered": 21,
+  "howmanyalowd": 30
+  },
+{
+  "age":14,
+  "tipe":4,
+  "event":"Interesting Science",
+  "date":"2018/9/24",
+  "place": 1,
+  "price": 8,
+  "registered": 76,
+  "howmanyalowd": 100
+  }
+]
