@@ -1,6 +1,4 @@
-package src;
 
-import src.Eventduom;
 
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -9,10 +7,8 @@ public class Gui {
     
     public int age (){
         String fn = "";
-        fn = JOptionPane.showInputDialog("Enter your age: ");
-        while(fn.equals("")){
-            fn = JOptionPane.showInputDialog("Enter your age: ");
-        }
+       do{ fn = JOptionPane.showInputDialog("Enter your age: ");}
+        while(fn.equals(""));
         try {
             int age = Integer.parseInt(fn);
         }catch(Exception e){
@@ -25,10 +21,14 @@ public class Gui {
         // JOptionPane.showMessageDialog(null, "your age" + age, "the title ", JOptionPane.PLAIN_MESSAGE);
         return age;
     }
-    
-    public String date(){
-        String strDate = JOptionPane.showInputDialog("Enter the date:   Format:yyyy/MM/dd");
-    
+ 
+       
+   public String date(){
+        String strDate;
+        do {
+            strDate = JOptionPane.showInputDialog("Enter the date:   Format:yyyy/MM/dd");
+        }
+        while(!strDate.matches("([0-9]{4})/([0-9]{2})/[0-9]{2}"));
         return strDate;
     }
     
@@ -53,7 +53,7 @@ public class Gui {
         return info_index;
     }
     
-    public void Entername(){
+    public void Entername(String rate){
         String name;
         String surname;
         do {
@@ -63,6 +63,15 @@ public class Gui {
         do {
             surname = JOptionPane.showInputDialog("Enter your surname: ");
         }while (surname.equals(""));
-        JOptionPane.showMessageDialog(null, "You have been registed: "+name+ " "+surname, "The title", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "You have been registed: "+name+ " "+surname+ "\n" + " Rating: "+  rate, "The title", JOptionPane.PLAIN_MESSAGE);
+    }
+    public int ErrosMessage(){
+         String [] info = new String [] {"Select the other day", "Back to events", "Exit the program"}; 
+        int info_index = JOptionPane.showOptionDialog(null,"Were is no events for selected day", "Erorr", 0, JOptionPane.QUESTION_MESSAGE,null,info,0 );
+        return info_index;
+    }
+
+    private void parcentInteger(String fn) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
