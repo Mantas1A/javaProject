@@ -27,7 +27,8 @@ public class Main {
         int index=time.dates();
         Date theday=time.addDay(index);
         //dcon.converter1();
-        comp.tipes(EventJson, theage , theday);
+        int eventindex =gui.Eventstipes();
+        comp.tipes(EventJson, theage , theday, eventindex);
         
 	}
 }
