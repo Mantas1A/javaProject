@@ -1,4 +1,6 @@
 
+
+import static java.lang.System.exit;
 import java.util.ArrayList;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -22,10 +24,9 @@ public class Comparator {
     public ArrayList<Eventduom> neededEvents = new ArrayList<Eventduom>();
     String error=("There is no this tipe events for your selected day");
     
-    public String [] tipes( ArrayList <Eventduom> sarasas, int age, Date theday){
+    public String [] tipes( ArrayList <Eventduom> sarasas, int age, Date theday, int index){
         ArrayList <Eventduom> neededEvents=new ArrayList();
         //neededEvents[0] = error;
-        int index = gui.Eventstipes();
         Date eData = new Date();
              
         for ( int i =0 ; i < sarasas.size(); i++ )         //  atsirenkam renginius pagal tipus
@@ -57,8 +58,16 @@ public class Comparator {
            int erorr=gui.ErrosMessage();
             if (erorr == 0){
                 Date day = data.addDay(1);
-                tipes(sarasas,age,day);
+                int eventindex = gui.Eventstipes();
+                tipes(sarasas,age,day, eventindex);
             }
+             if (erorr == 1){
+               int eventindex = gui.Eventstipes();
+               tipes(sarasas,age,theday, eventindex);
+            }
+             if(erorr==2){
+                  System.exit(1);
+             }
        
         } 
         // ---------------------------------
@@ -99,7 +108,7 @@ public class Comparator {
               }
           }
           else if(regist_index == 1) { 
-              tipes(sarasas,age,theday);
+              tipes(sarasas,age,theday,index);
           }
         
           return names;
