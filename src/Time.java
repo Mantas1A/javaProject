@@ -1,4 +1,5 @@
 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -57,6 +58,10 @@ public class Time {
             System.out.println(e.getMessage());
         }
               
+              
+            }
+            else {
+                System.exit(0);
             }
         return null;
  
