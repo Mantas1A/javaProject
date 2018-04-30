@@ -1,4 +1,4 @@
-	import java.io.FileInputStream;
+		import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,7 +20,7 @@ public class EventRead {
 			        ArrayList<Eventduom> sarasas = new ArrayList();
 			        
 			        try {
-			            InputStream inputStream = new FileInputStream(fileName);  //("src/Skambutis.txt");
+			            InputStream inputStream = new FileInputStream(fileName);  //("src/duom.txt");
 			            Reader reader = new InputStreamReader(inputStream, "UTF-8"); //StandardCharsets.UTF_8
 		 
 			            Gson gson = new GsonBuilder().create();
