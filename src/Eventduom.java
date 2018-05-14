@@ -1,4 +1,3 @@
-
 public class Eventduom {
 
     private int age;
@@ -14,8 +13,7 @@ public class Eventduom {
     public Eventduom(){
 
     }
-    public Eventduom (int age, int tipe, String event, String date, int place, int price, int registered, int howmanyalowd, String location) {
-		
+    public Eventduom (int age, int tipe, String event, String date, int place, int price, int registered, int howmanyalowd, String location) {	
         super();
 	this.age = age;
 	this.tipe = tipe;
@@ -27,9 +25,11 @@ public class Eventduom {
 	this.howmanyalowd = howmanyalowd;
         this.location=location;
     }
+    
     public String getlocation(){
         return location;
     }
+    
     public void setlocation(){
         this.location=location;
     }
@@ -100,7 +100,7 @@ public class Eventduom {
 
     @Override
     public String toString() {
-    	String rez = "From what age: " + age + " | Date: " + date +  " | Event Location:  "+ location + " | Price "+ price + " € | Registered: " + registered + " | Available slots: " + (howmanyalowd - registered) ;
+    	String rez = "From what age: " + age + " | Date: " + date +  " | Event location:  "+ location + " | Price "+ price + " € | Registered: " + registered + " | Available slots: " + (howmanyalowd - registered) ;
 	return rez;
     }
 }

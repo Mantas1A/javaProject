@@ -1,42 +1,123 @@
 [
   {
-  "age":0,
-  "tipe":1,
-  "event":"miami-spurs",
-  "date":"2018/05/03",
-  "place": 0,
-  "price": 0,
-  "registered": 150,
-  "howmanyalowd": 9999
-  },
-{
-  "age":18,
-  "tipe":2,
-  "event":"Raw",
-  "date":"2018/08/03",
+  "age":3,
+  "tipe":0,
+  "event":"Zalgiris - Nevezis",
+  "date":"2018/06/03",
   "place": 1,
-  "price": 20,
-  "registered": 150,
-  "howmanyalowd": 200
+  "price": 15,
+  "registered": 3206,
+  "howmanyalowd": 10000,
+  "location": "Zirmunu g. 59"
   },
 {
-  "age":0,
+  "age":3,
+  "tipe":0,
+  "event":"Zalgiris - Fenerbahce",
+  "date":"2018/05/18",
+  "place": 1,
+  "price": 40,
+  "registered": 16750,
+  "howmanyalowd": 20000,
+  "location": "Vilniaus g. 23"
+  },
+{
+  "age":16,
+  "tipe":0,
+  "event":"Volleyball Tournament",
+  "date":"2018/06/22",
+  "place": 0,
+  "price": 5,
+  "registered": 16,
+  "howmanyalowd": 20,
+  "location": "Gedimino pr. 23"
+  },
+{
+  "age":12,
   "tipe":1,
-  "event":"new book HarisPoteris",
-  "date":"2018/05/03",
+  "event":"Vibelift",
+  "date":"2018/05/06",
   "place": 1,
   "price": 10,
-  "registered": 20,
-  "howmanyalowd": 30
+  "registered": 7632,
+  "howmanyalowd": 10000,
+  "location": "Ozo g. 14"
   },
 {
-  "age":0,
+  "age":3,
+  "tipe":2,
+  "event":"James Blunt Tour",
+  "date":"2018/05/18",
+  "place": 1,
+  "price": 40,
+  "registered": 7460,
+  "howmanyalowd": 15000,
+  "location": "Ozo g. 14"
+  },
+{
+  "age":3,
+  "tipe":2,
+  "event":"Linas Adomaitis",
+  "date":"2018/12/21",
+  "place": 1,
+  "price": 25,
+  "registered": 246,
+  "howmanyalowd": 15000,
+  "location": "Ozo g. 14"
+  },
+{
+  "age":16,
   "tipe":1,
-  "event":"BTH",
-  "date":"2018/07/03",
-  "place": 0,
-  "price": 20,
-  "registered": 500,
-  "howmanyalowd": 9999
+  "event":"Book presentation",
+  "date":"2018/07/15",
+  "place": 1,
+  "price": 0,
+  "registered": 120,
+  "howmanyalowd": 200,
+  "location": "Ulonu g. 75"
+  },
+{
+  "age":3,
+  "tipe":3,
+  "event":"Healthy eating",
+  "date":"2018/10/13",
+  "place": 1,
+  "price": 3,
+  "registered": 16,
+  "howmanyalowd": 50,
+  "location": "Luksio g. 23"
+  },
+{
+  "age":12,
+  "tipe":3,
+  "event":"Improving learning efficiency",
+  "date":"2018/10/13",
+  "place": 1,
+  "price": 3,
+  "registered": 16,
+  "howmanyalowd": 50,
+  "location": "Luksio g. 68"
+  },
+{
+  "age":14,
+  "tipe":4,
+  "event":"Programming lessons",
+  "date":"2018/9/06",
+  "place": 1,
+  "price": 0,
+  "registered": 21,
+  "howmanyalowd": 30,
+  "location": "Laisves pr. 45"
+  },
+{
+  "age":14,
+  "tipe":4,
+  "event":"Interesting Science",
+  "date":"2018/9/24",
+  "place": 1,
+  "price": 8,
+  "registered": 76,
+  "howmanyalowd": 100,
+  "location": "Didlaukio g. 73"
   }
 ]
